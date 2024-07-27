@@ -556,4 +556,97 @@ footer{
     width: 1063px;
     height: 350px;
     margin-top: 262px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+footer>p{
+    color: #FFF;
+    font-size: 1.563em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+
+footer> ul{
+    list-style: none;
+}
+
+footer>ul>li{
+    color: #FFF;
+    font-size: 1.25em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+    cursor: pointer;
+}
+
+footer>ul>li:first-of-type, .subscribe p{
+    color: #FFF;
+    font-size: 1.563em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 19px;
+    cursor: unset;
+}
+
+.subscribe p{
+    margin-bottom: 9px;
+}
+
+.subscribe form{
+    width: 253px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #3B7C70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 1px 1px 20px;
+}
+
+.subscribe form input[type="email"]{
+    width: 120px;
+    height: 38px;
+    background: none;
+    border: none;
+}
+
+.subscribe form input[type="email"]::placeholder{
+    color: #FFF;
+    font-size: 1.25em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+.subscribe form input[type="email"]:focus{
+    outline: none;
+}
+
+.subscribe form button{
+    width: 100px;
+    height: 58px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 50px;
+    background: #262E48;
+    color: #FFF;
+    font-size: 1.25em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    cursor: pointer;
 }
