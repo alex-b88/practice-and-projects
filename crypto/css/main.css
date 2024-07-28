@@ -364,13 +364,20 @@ h3{
     width: 222px;
     color: #56CAB1;
     font-family: 'Outfit', sans-serif;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #02061A;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    text-shadow:
+            2px 2px 0 #02061A,
+            -2px -2px 0 #02061A,
+            2px -2px 0 #02061A,
+            -2px 2px 0 #02061A,
+            2px 0 0 #02061A,
+            -2px 0 0 #02061A,
+            0 2px 0 #02061A,
+            0 -2px 0 #02061A;
 }
 
 .card-bottom{
