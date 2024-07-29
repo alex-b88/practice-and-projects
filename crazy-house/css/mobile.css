@@ -6,8 +6,17 @@
     .top{
         width: 100vw;
         height: 823px;
-        background-position: center bottom;
+        background: radial-gradient(237.5% 111.8% at 0% 0%, #5B483A 0%, #262425 100%), #211F20;;
         gap: 60px;
+    }
+
+    .bg-image{
+        width: 260px;
+        height: 271px;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 10px;
     }
 
     header{
@@ -40,6 +49,23 @@
     .slider-info>p:last-of-type{
         width: 300px;
         font-size: 15px;
+        text-align: center;
+    }
+
+    .section-about{
+        margin: 42px 0 42px 0;
+        display: flex;
+        width: 320px;
+        height: 974px;
+        padding: 42px 10px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        gap: 42px;
+    }
+
+    .section-about>div>h2{
         text-align: center;
     }
 }
