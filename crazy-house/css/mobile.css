@@ -68,4 +68,37 @@
     .section-about>div>h2{
         text-align: center;
     }
+    .our-friends{
+        width: 100vw;
+        height: 791px;
+        padding: 42px 10px;
+        gap: unset;
+    }
+
+    .our-friends-grid{
+        margin-bottom: 72px;
+    }
+
+    .our-friends>h2{
+        width: 300px;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        margin-bottom: 42px;
+    }
+
+    .our-friends-grid .card{
+        width: 270px;
+        height: 435px;
+        gap: 30px;
+    }
+
+    .our-friends-grid>.card>img{
+    width: 270px;
+    height: 270px;
+    flex-shrink: 0;
+    }
+
+    .our-friends-grid .card:nth-child(n+2){
+        display: none;
+    }
 }

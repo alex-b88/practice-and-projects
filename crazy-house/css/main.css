@@ -188,3 +188,94 @@ header ul li:first-of-type .rect {
     line-height: 160%; /* 24px */
 }
 
+.our-friends{
+    display: flex;
+    width: 1200px;
+    height: 877px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-shrink: 0;
+    background: #F6F6F6;
+}
+
+.our-friends>h2{
+    width: 400px;
+    color: #545454;
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+
+.our-friends-grid{
+    display: flex;
+    width: 1200px;
+    height: 435px;
+    padding: 0 105px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 90px;
+    flex-shrink: 0;
+}
+
+.our-friends-grid>.card{
+    display: flex;
+    width: 270px;
+    height: 435px;
+    padding-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    flex-shrink: 0;
+}
+
+.card>image{
+    width: 270px;
+    height: 270px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: #FAFAFA;
+}
+
+.card>button{
+    display: flex;
+    padding: 15px 45px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    border: 2px solid #F1CDB3;
+    color: #292929;
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 22.1px */
+    letter-spacing: 1.02px;
+    background: #FAFAFA;
+    cursor: pointer;
+}
+
+.our-friends>button{
+    display: flex;
+    padding: 15px 45px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #F1CDB3;
+    border: none;
+    color: #292929;
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 22.1px */
+    letter-spacing: 1.02px;
+    cursor: pointer;
+}
