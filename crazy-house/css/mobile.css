@@ -66,8 +66,17 @@
     }
 
     .section-about>div>h2{
+        width: 280px;
         text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
     }
+
+    .section-about>div>p{
+        width: 270px;
+        text-align: justify;
+    }
+
     .our-friends{
         width: 100vw;
         height: 791px;
@@ -184,5 +193,30 @@
 
     .donation-info p:last-of-type{
         width: 280px;
+    }
+
+    footer{
+        width: 320px;
+        height: 809px;
+        flex-shrink: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 30px 0 0 0;
+    }
+
+    footer>img{
+        width: 260px;
+        height: 269px;
+        flex-shrink: 0;
+        bottom: 0;
+        left: 30px;
+    }
+
+    footer ul li:first-child{
+        width: 278px;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+        text-align: center;
     }
 }
