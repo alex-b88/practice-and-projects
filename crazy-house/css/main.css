@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -77,6 +78,8 @@ header ul{
 
 header ul li:hover{
     color: #FAFAFA;
+    text-decoration: underline solid 3px #F1CDB3;
+    text-underline-offset: 6px;
 }
 
 header ul li{
@@ -86,26 +89,6 @@ header ul li{
     font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 24px */
-}
-
-header ul li:first-of-type{
-    color: #FAFAFA;
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 160%; /* 24px */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-}
-
-header ul li:first-of-type .rect {
-    width: 114px;
-    height: 3px;
-    background: #F1CDB3;
 }
 
 .slider-info{
