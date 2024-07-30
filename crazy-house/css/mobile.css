@@ -134,4 +134,55 @@
         line-height: 110%; /* 16.5px */
         letter-spacing: 0.9px;
     }
+
+    .donation>img{
+        width: 260px;
+        height: 135.2px;
+        flex-shrink: 0;
+    }
+    .donation{
+        display: inline-flex;
+        height: 542.2px;
+        padding: 42px 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 42px;
+        flex-shrink: 0;
+    }
+
+    .donation-info{
+        align-items: center;
+    }
+
+    .donation-info h3{
+        width: 300px;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+
+    .donation-info p:first-of-type{
+        line-height: 160%; /* 24px */
+        letter-spacing: unset;
+    }
+
+    .card-info{
+        width: 281px;
+    }
+
+    .card-info>svg{
+        width: 30px;
+        height: 23px;
+    }
+
+    .card-info>h4{
+        font-size: 15px;
+        line-height: 110%; /* 16.5px */
+        letter-spacing: 0.9px;
+    }
+
+    .donation-info p:last-of-type{
+        width: 280px;
+    }
 }

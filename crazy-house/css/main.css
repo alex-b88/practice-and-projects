@@ -333,3 +333,81 @@ header ul li:first-of-type .rect {
     line-height: 115%; /* 23px */
     letter-spacing: 1.2px;
 }
+
+.donation{
+    display: flex;
+    width: 1280px;
+    height: 462px;
+    padding: 80px 182px 100px 183px;
+    justify-content: center;
+    align-items: center;
+    background: #F6F6F6;
+    gap: 30px;
+}
+
+.donation-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.donation-info h3{
+    width: 300px;
+    color: #545454;
+
+    /* h3 */
+    font-family: Georgia, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 45.5px */
+    letter-spacing: 2.1px;
+}
+
+.donation-info p:first-of-type{
+    color: #545454;
+    font-family: Georgia, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%; /* 16.5px */
+    letter-spacing: 0.9px;
+}
+
+.donation-info p:last-of-type{
+    width: 380px;
+    color: #B2B2B2;
+
+    /* donation-description */
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px; /* 150% */
+}
+
+.card-info{
+    width: 349px;
+    height: 43px;
+    padding-left: 15px;
+    border-radius: 9px;
+    background: #F1CDB3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-info h4{
+    color: #545454;
+
+    /* h4 */
+    font-family: Georgia, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; /* 23px */
+    letter-spacing: 1.2px;
+}
