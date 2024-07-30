@@ -101,4 +101,37 @@
     .our-friends-grid .card:nth-child(n+2){
         display: none;
     }
+    .help-shelter{
+        padding: 42px 15px;
+        gap: 42px;
+        height: unset;
+    }
+
+    .help-shelter>h2{
+        color: #545454;
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 1.5px;
+    }
+    .help-shelter-grid{
+        width: 320px;
+        padding: 42px 15px;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .help-shelter-grid>.card{
+        width: 130px;
+    }
+
+    .help-shelter-grid>.card svg{
+        width: 50px;
+        height: 50px;
+    }
+    .help-shelter-grid>.card>h4{
+        font-size: 15px;
+        line-height: 110%; /* 16.5px */
+        letter-spacing: 0.9px;
+    }
 }
