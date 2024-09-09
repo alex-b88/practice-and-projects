@@ -649,7 +649,7 @@ footer>ul>li:first-of-type, .subscribe p{
     outline: none;
 }
 
-.subscribe form button{
+.subscribe form button {
     width: 100px;
     height: 58px;
     flex-shrink: 0;

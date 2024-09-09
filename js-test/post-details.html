@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post details</title>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .post{
+      margin-top: 30px;
+      padding: 20px 30px;
+      width: 90%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+    .post>p:first-of-type{
+      margin-bottom: 30px;
+    }
+    .post-body{
+      margin-bottom: 30px;
+    }
+    .comments-block{
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 12px;
+    }
+    .comment{
+      padding: 15px 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+    }
+    .comment>p{
+      margin-bottom: 5px;
+    }
+    .comment>p:last-of-type{
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<script src="js/post-detail.js"></script>
+</body>
+</html>
