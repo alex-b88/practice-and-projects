@@ -46,12 +46,18 @@ body{
 }
 
 .posts{
+    margin-top: 20px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 15px;
 }
+.postTitle{
+    padding: 10px 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
 
-.postTitle> span{
+.postTitle>span{
     margin-right: 5px;
 }
 
